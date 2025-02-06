@@ -1,9 +1,10 @@
-.form-control{
-    width: 800px;
-    display: flex;
-    color: #D9D9D9;
-}
+.d-flex {
+    justify-content: center; /* Centra el formulario en la página */
+    width: 60%; /* Asegura que ocupe el ancho completo de la página */
+    margin-right: 15%;
+    padding-right: 15%;
+  }
 
-header, .navbar, .navbar-nav, .nav-link, .form-control, .btn {
+header, footer {
     font-family: 'Nokora', sans-serif;
   }
