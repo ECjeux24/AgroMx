@@ -8,3 +8,13 @@
 header, footer {
     font-family: 'Nokora', sans-serif;
   }
+
+  #sobre-nosotros{
+    font-family: 'Gabriela', serif;
+    font-weight: bold;
+
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gabriela', serif;
+  }
