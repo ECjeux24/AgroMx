@@ -1,12 +1,10 @@
-<<<<<<< HEAD
 .form-control{
     width: 800px;
     display: flex;
 }
 
-*{background-color: blue;};
 
-=======
+
 .d-flex {
     justify-content: center; /* Centra el formulario en la página */
     width: 100%; /* Asegura que ocupe el ancho completo de la página */
@@ -27,4 +25,16 @@ header, footer {
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Gabriela', serif;
   }
->>>>>>> f394d444d0ecd7c13c1101c8200e41707a04dd31
+
+  .navbar, .footer {
+    background-color: #007D3C; /* Color de fondo */
+  }
+
+  a {
+    color: white !important;
+  }
+
+  /* Para el hover también */
+  a:hover {
+    color: gray;
+  }
