@@ -3,3 +3,7 @@
     display: flex;
     color: #D9D9D9;
 }
+
+header, .navbar, .navbar-nav, .nav-link, .form-control, .btn {
+    font-family: 'Nokora', sans-serif;
+  }
