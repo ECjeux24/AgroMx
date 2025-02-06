@@ -1,6 +1,6 @@
 .d-flex {
     justify-content: center; /* Centra el formulario en la página */
-    width: 60%; /* Asegura que ocupe el ancho completo de la página */
+    width: 100%; /* Asegura que ocupe el ancho completo de la página */
     margin-right: 15%;
     padding-right: 15%;
   }
