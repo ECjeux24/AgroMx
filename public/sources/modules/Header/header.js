@@ -17,7 +17,7 @@ const insertHeader = () => {
           				</form>
         			</div>
         			<div class="col d-flex align-items-center">
-						<img class="icono" src="/public/images/carrito-de-compras.png" alt="icono de carrito de compras">
+						<img class="icono cart" src="/public/images/carrito-de-compras.png" alt="icono de carrito de compras">
 						<img class="icono" src="/public/images/avatar.png" alt="icono de usuario">
         			</div>
       			</div>
