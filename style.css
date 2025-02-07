@@ -42,7 +42,7 @@ a:hover {
 .icono{
   width: 50px;
   height: 50px;
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .logo-agroMx{
@@ -60,10 +60,5 @@ a:hover {
 .navbar-brand{
   margin-left: 20px;
   font-size: 20px;
- }
-
-#linea-verde {
-  border-top: 25px solid #007D3C;
-  width: 100%;
-
 }
+
