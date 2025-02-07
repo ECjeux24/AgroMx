@@ -24,19 +24,19 @@ const insertMainFooter = ()=>{
           <div class="d-flex justify-content-end align-items-center">
               <div class="text-center mx-3 my-4">
                   <a href="#" class="text-white text-decoration-none">
-                    <img src="./public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50">
+                    <img src="/public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50">
                       <p class="mb-0 small">AgroMx</p>
                   </a>
               </div>
               <div class="text-center mx-3">
                   <a href="#" class="text-white text-decoration-none">
-                    <img src="./public/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50" height="50">
+                    <img src="/public/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50" height="50">
                       <p class="mb-0 small">AgroMx</p>
                   </a>
               </div>
               <div class="text-center mx-3">
                   <a href="#" class="text-white text-decoration-none">
-                    <img src="./public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50">
+                    <img src="/public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50">
                       <p class="mb-0 small">WhatsApp</p>
                   </a>
               </div>
