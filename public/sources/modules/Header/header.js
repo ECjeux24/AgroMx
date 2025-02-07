@@ -4,7 +4,7 @@ const insertHeader = () => {
     <div class="container">
 				<div class="row">
 					<div class="logo-agroMx col d-flex">
-						<img class="logo small-image" src="/public/images/image.png" alt="Logo AgroMX">
+						<img class="logo small-image p-1" src="/public/images/image.png" alt="Logo AgroMX">
 					</div>
         			<div class="col d-flex align-items-center">
           				<button id="lupa" class="btn btn-outline-success" type="submit">
