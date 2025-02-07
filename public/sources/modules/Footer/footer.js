@@ -1,8 +1,8 @@
 const insertMainFooter = () => {
-	const footer = document.getElementById("footer");
+    const footer = document.getElementById("footer");
 
-	footer.innerHTML = `
-<div class="container">
+    footer.innerHTML = `
+<div class="container-fluid text-white py-4">
     <div class="row">
         
         <div class="col-md-4">
@@ -15,7 +15,9 @@ const insertMainFooter = () => {
 
         
         <div class="col-md-4 text-center">
-            <h6 class="fw-bold">Regístrate</h6>
+        <h6 class="fw-bold">Regístrate</h6>
+        <h4 class="fw-bold mt-3 p-1">AgroMX </h4>
+        <i class="fa-regular fa-copyright fa-xl"></i>
         </div>
 
         
@@ -24,19 +26,19 @@ const insertMainFooter = () => {
               <div class="text-center mx-3 my-4">
                   <a href="#" class="text-white text-decoration-none">
                     <img src="/public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50">
-                      <p class="mb-0 small my-1">AgroMx</p>
+                      <p class="mb-0 small mt-2">AgroMx</p>
                   </a>
               </div>
               <div class="text-center mx-3">
                   <a href="#" class="text-white text-decoration-none">
                     <img src="/public/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50" height="50">
-                      <p class="mb-0 small my-1">AgroMx</p>
+                      <p class="mb-0 small mt-2">AgroMx</p>
                   </a>
               </div>
               <div class="text-center mx-3">
                   <a href="#" class="text-white text-decoration-none">
                     <img src="/public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50">
-                      <p class="mb-0 small my-1">WhatsApp</p>
+                      <p class="mb-0 small mt-2">WhatsApp</p>
                   </a>
               </div>
           </div>

@@ -1,7 +1,7 @@
 const insertHeader = () => {
 	const header = document.getElementById("header");
 	header.innerHTML = `
-    <div class="container">
+    <div class="container-fluid">
 				<div class="row">
 					<div class="logo-agroMx col d-flex">
 						<img class="logo small-image p-1" src="/public/images/image.png" alt="Logo AgroMX">
@@ -25,7 +25,7 @@ const insertHeader = () => {
 
     		<nav class="navbar navbar-expand-lg">
       			<div class="container-fluid">
-        			<a class="navbar-brand" href="#">Inicio</a>
+        			<a class="navbar-brand" href="/index.html">Inicio</a>
         			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           			<span class="navbar-toggler-icon"></span><!--FIXME-->
         			</button>
@@ -35,23 +35,23 @@ const insertHeader = () => {
               					<a class="nav-link active" aria-current="page" href="#">Catalogo</a>
             				</li>
             				<li class="nav-item">
-              					<a class="nav-link" href="#">Sobre Nosotros</a>
+              					<a class="nav-link" href="/public/sources/pages/acercaDeNosotros/acercaDe.html">Sobre Nosotros</a>
             				</li>
             				<li class="nav-item dropdown">
               					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Comunidad </a>
               			<ul class="dropdown-menu"><!--FIXME: NO HAY CIERRE DE <UL> -->
                 			<li>
-								<a class="dropdown-item" href="#">Recetas</a>
+								<a class="dropdown-item text-dark" href="#">Recetas</a>
 							</li>
                 			<li>
-								<a class="dropdown-item" href="#">Catalogos</a>
+								<a class="dropdown-item text-dark" href="#">Catalogos</a>
 							</li>
                 			<li>
                   				<hr class="dropdown-divider" id="sobre-nosotros">
 							<!--FIXME NO HAY CIERRE O ETIQUETA INCORRECTA-->
                 			</li>
                 			<li>
-								<a class="dropdown-item" href="#">Comunidad</a>
+								<a class="dropdown-item text-dark" href="#">Comunidad</a>
 							</li>
               			</ul>
             			</li>
