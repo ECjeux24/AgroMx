@@ -1,6 +1,7 @@
 const insertHeader = () => {
 	const header = document.getElementById("header");
 	header.innerHTML = `
+	<div class="container-fluid greenLine"></div>
     <div class="container-fluid">
 				<div class="row">
 					<div class="logo-agroMx col d-flex">
