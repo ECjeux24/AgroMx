@@ -1,198 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>AgroMx</title>
+		<link rel="stylesheet" href="/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Nokora&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+	</head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sobre nosotros - AgroMx</title>
-  <link rel="stylesheet" href="./style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nokora&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+	<body>
+		<header>
+    		<div class="container">
+				<div class="row">
+					<div class="logo-agroMx col d-flex">
+						<img class="logo small-image" src="/public/images/image.png" alt="Logo AgroMX">
+					</div>
+        			<div class="col d-flex align-items-center">
+          				<button id="lupa" class="btn btn-outline-success" type="submit">
+            				<img class="icono" src="/public/images/lupa.png" alt="lupa">
+          				</button>
+        			</div>
+        			<div class="barra col d-flex align-items-center">
+          				<form class="d-flex w-100" role="search">
+            				<input class="form-control me-2" type="search" placeholder="Busca tu producto" aria-label="Search">
+          				</form>
+        			</div>
+        			<div class="col d-flex align-items-center">
+						<img class="icono" src="/public/images/carrito-de-compras.png" alt="icono de carrito de compras">
+						<img class="icono" src="/public/images/avatar.png" alt="icono de usuario">
+        			</div>
+      			</div>
+    		</div>
 
-  <header>
-    <div class="container">
-      <div class="row">
+    		<nav class="navbar navbar-expand-lg">
+      			<div class="container-fluid">
+        			<a class="navbar-brand" href="#">Inicio</a>
+        			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          			<span class="navbar-toggler-icon"></span><!--FIXME-->
+        			</button>
+        			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+          				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            				<li class="nav-item">
+              					<a class="nav-link active" aria-current="page" href="#">Catalogo</a>
+            				</li>
+            				<li class="nav-item">
+              					<a class="nav-link" href="#">Sobre Nosotros</a>
+            				</li>
+            				<li class="nav-item dropdown">
+              					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Comunidad </a>
+              			<ul class="dropdown-menu"><!--FIXME: NO HAY CIERRE DE <UL> -->
+                			<li>
+								<a class="dropdown-item" href="#">Recetas</a>
+							</li>
+                			<li>
+								<a class="dropdown-item" href="#">Catalogos</a>
+							</li>
+                			<li>
+                  				<hr class="dropdown-divider" id="sobre-nosotros">
+							<!--FIXME NO HAY CIERRE O ETIQUETA INCORRECTA-->
+                			</li>
+                			<li>
+								<a class="dropdown-item" href="#">Comunidad</a>
+							</li>
+              			</ul>
+            			</li>
+            				<li class="nav-item">
+              					<a class="nav-link disabled" aria-disabled="true">Contacto</a>
+            				</li>
+          				</ul>
+        			</div>
+      			</div>
+    		</nav>
+    	</header>
 
-        <div class="logo-agroMx col d-flex"><img class="logo small-image" src="/public/images/image.png" alt="Logo AgroMX"></div>
-        
-        
-        <div class="col d-flex align-items-center">
-          <button id="lupa" class="btn btn-outline-success" type="submit">
-            <img class="icono" src="/public/images/lupa.png" alt="lupa">
-          </button>
-        </div>
-        
-        
-        
-        
-        <div class="barra col d-flex align-items-center">
-          <form class="d-flex w-100" role="search">
-            <input class="form-control me-2" type="search" placeholder="Busca tu producto" aria-label="Search">
-          </form>
-        </div>
-        <div class="col d-flex align-items-center"><img class="icono" src="/public/images/carrito-de-compras.png"
-            alt="icono de carrito de compras"><img class="icono" src="/public/images/avatar.png" alt="icono de usuario">
-        </div>
+    	<main>
+		<h1>Sobre Nosotros</h1>
+		</main>
 
-      </div>
-    </div>
+		<footer id="footer" class="text-white py-4"></footer>
 
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Inicio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Catalogo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Nosotros</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Comunidad
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Recetas</a></li>
-                <li><a class="dropdown-item" href="#">Catalogos</a></li>
-                <li>
-                  <hr class="dropdown-divider" id="sobre-nosotros">Sobre Nosotros
-                </li>
-                <li><a class="dropdown-item" href="#"></a>Comunidad</li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-</head>
+		<script src="/public/sources/aboutUs/modules/Footer/footer.js"></script>
 
-
-<body>
-  <h1>Sobre Nosotros</h1>
-
-  <!--   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-6 col-md-2 mb-3">
-      <h6>
-        ¿Necesitas ayuda?
-      </h6>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white">
-            <font style="vertical-align: inherit;">
-              <font style="vertical-align: inherit;">Tel. 555 324 6353</font>
-            </font>
-          </a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white">
-            <font style="vertical-align: inherit;">
-              <font style="vertical-align: inherit;">agromx.soporte@gmail.com</font>
-            </font>
-          </a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white">
-            <font style="vertical-align: inherit;">
-              <font style="vertical-align: inherit;">Horarios de atención:</font>
-            </font>
-          </a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white">
-            <font style="vertical-align: inherit;">
-              <font style="vertical-align: inherit;">9:00 a 18:00</font>
-            </font>
-          </a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white">
-            <font style="vertical-align: inherit;">
-              <font style="vertical-align: inherit;">Acerca de</font>
-            </font>
-          </a></li>
-      </ul>
-    </div>
-  
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-white" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#twitter"></use>
-          </svg></a>Instagram</li>
-      <img src="/public/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50" height="50">
-      <li class="ms-3"><a class="text-body-white" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#instagram"></use>
-          </svg></a>Facebook</li>
-      <img src="/public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50">
-      <li class="ms-3"><a class="text-body-white" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#facebook"></use>
-          </svg></a>WhatsApp</li>
-      <img src="/public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50">
-    </ul>
-  </footer> -->
-
-  <footer class="text-white py-4">
-    <div class="container">
-      <div class="row">
-        <!-- Columna de Soporte -->
-        <div class="col-md-4">
-          <h6 class="fw-bold">¿Necesitas ayuda?</h6>
-          <p class="mb-1"><strong>Tel. 555 324 6353</strong></p>
-          <p class="mb-1">agromx.soporte@gmail.com</p>
-          <p class="mb-0"><strong>Horarios de atención:</strong></p>
-          <p class="mb-0">9:00 a 18:00 h</p>
-        </div>
-
-        <!-- Columna de Registro -->
-        <div class="col-md-4 text-center">
-          <h6 class="fw-bold">Regístrate</h6>
-        </div>
-
-        <!-- Columna de Redes Sociales -->
-        <div class="col-md-4 text-end">
-          <div class="d-flex justify-content-end align-items-center">
-            <div class="text-center mx-3 my-4">
-              <a href="#" class="text-white text-decoration-none">
-                <img src="/public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50"
-                  height="50">
-                <p class="mb-0 small">AgroMx</p>
-              </a>
-            </div>
-            <div class="text-center mx-3">
-              <a href="#" class="text-white text-decoration-none">
-                <img src="/public/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50"
-                  height="50">
-                <p class="mb-0 small">AgroMx</p>
-              </a>
-            </div>
-            <div class="text-center mx-3">
-              <a href="#" class="text-white text-decoration-none">
-                <img src="/public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50"
-                  height="50">
-                <p class="mb-0 small">WhatsApp</p>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    </div>
-  </footer>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
-
-
+	</body>
 </html>
