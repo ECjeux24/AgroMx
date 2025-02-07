@@ -1,8 +1,7 @@
+const insertMainFooter = () => {
+	const footer = document.getElementById("footer");
 
-const insertMainFooter = ()=>{
-    const footer = document.getElementById("footer");
-
-    footer.innerHTML = `
+	footer.innerHTML = `
 <div class="container">
     <div class="row">
         
@@ -42,13 +41,9 @@ const insertMainFooter = ()=>{
               </div>
           </div>
       </div>                  
-
         </div>
     </div>
-</div>
-    `;
-
-}
+</div>`;
+};
 
 insertMainFooter();
-
