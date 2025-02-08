@@ -5,10 +5,8 @@ body {
   background-color: #f9f9f9;
 }
 
-P {
+p {
   font-family: 'Nokora', sans-serif;
-  margin: 30px;
-  padding: 5px;
 }
 
 main {
