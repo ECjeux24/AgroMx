@@ -41,7 +41,7 @@ const insertMainFooter = () => {
               </div>
               <div class="text-center mx-3">
                   <a href="#" class="text-white text-decoration-none">
-                    <img src="./public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50">
+                    <img src="../../../images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50">
                       <p class="mb-0 small mt-2">WhatsApp</p>
                   </a>
               </div>
