@@ -7,7 +7,7 @@ const insertHeader = () => {
   <div class="row align-items-center">
 	<!-- Logo -->
 	<div class="col-4 col-md-2 d-flex justify-content-start">
- 	 	<img class="logo img-fluid p-1" src="public/images/image.png" alt="Logo AgroMX">
+ 	 	<img class="logo img-fluid p-1" src="../../images/image.png" alt="Logo AgroMX">
 	</div>
 
     <!-- Lupa y barra de búsqueda -->
