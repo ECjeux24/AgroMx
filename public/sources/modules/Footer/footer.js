@@ -14,7 +14,7 @@ const insertMainFooter = () => {
         </div>
 
         <div class = "col-4 col-md-3 col-lg-3 text-center">
-        <a href="/public/sources/pages/acercaDeNosotros/acercaDe.html"><strong>Developer Team</strong></a><br>
+        <a href="public/sources/pages/acercaDeNosotros/acercaDe.html"><strong>Developer Team</strong></a><br>
         </div>
 
         
@@ -29,19 +29,19 @@ const insertMainFooter = () => {
           <div class="d-flex justify-content-center align-items-center">
               <div class="text-center mx-3 my-4">
                   <a href="#" class="text-white text-decoration-none">
-                    <img src="/public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50">
+                    <img src="./public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50">
                       <p class="mb-0 small mt-2">AgroMx</p>
                   </a>
               </div>
               <div class="text-center mx-3">
                   <a href="#" class="text-white text-decoration-none">
-                    <img src="/public/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50" height="50">
+                    <img src="./public/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50" height="50">
                       <p class="mb-0 small mt-2">AgroMx</p>
                   </a>
               </div>
               <div class="text-center mx-3">
                   <a href="#" class="text-white text-decoration-none">
-                    <img src="/public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50">
+                    <img src="./public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50">
                       <p class="mb-0 small mt-2">WhatsApp</p>
                   </a>
               </div>
