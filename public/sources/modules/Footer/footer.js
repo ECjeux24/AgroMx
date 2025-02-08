@@ -4,8 +4,8 @@ const insertMainFooter = () => {
     footer.innerHTML = `
 <div class="container-fluid text-white py-4">
     <div class="row">
-        
-        <div class="col-md-4">
+    
+        <div class="col-6 col-md-4 col-lg-4 text-start">
             <h6 class="fw-bold">¿Necesitas ayuda?</h6>
             <p class="mb-1"><strong>Tel. 555 324 6353</strong></p>
             <p class="mb-1">agromx.soporte@gmail.com</p>
@@ -14,15 +14,15 @@ const insertMainFooter = () => {
         </div>
 
         
-        <div class="col-md-4 text-center">
+        <div class="col-6 col-md-4 col-lg-4 text-center">
         <h6 class="fw-bold">Regístrate</h6>
         <h4 class="fw-bold mt-3 p-1">AgroMX </h4>
         <i class="fa-regular fa-copyright fa-xl"></i>
         </div>
 
         
-        <div class="col-md-4 text-end">
-          <div class="d-flex justify-content-end align-items-center">
+        <div class="col-12 col-md-4 col-lg-4 text-end">
+          <div class="d-flex justify-content-center align-items-center">
               <div class="text-center mx-3 my-4">
                   <a href="#" class="text-white text-decoration-none">
                     <img src="/public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50">
