@@ -7,7 +7,7 @@ const insertHeader = () => {
   <div class="row align-items-center">
 	<!-- Logo -->
 	<div class="col-4 col-md-2 d-flex justify-content-start">
- 	 	<img class="logo img-fluid p-1" src="/public/images/image.png" alt="Logo AgroMX">
+ 	 	<img class="logo img-fluid p-1" src="./public/images/image.png" alt="Logo AgroMX">
 	</div>
 
     <!-- Lupa y barra de búsqueda -->
@@ -15,7 +15,7 @@ const insertHeader = () => {
       <!-- Botón de búsqueda (Lupa) -->
       <div class="d-flex justify-content-center align-items-center me-3">
         <button id="lupa" class="btn btn-outline-success btn-sm btn-lupa" type="submit">
-          <img class="icono-lupa" src="/public/images/lupa.png" alt="lupa">
+          <img class="icono-lupa" src="./public/images/lupa.png" alt="lupa">
         </button>
       </div>
       
@@ -31,15 +31,15 @@ const insertHeader = () => {
 
  <!-- Carrito y Avatar -->
 <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-2 mt-md-0">
-  <img class="icono cart" src="/public/images/carrito-de-compras.png" alt="icono de carrito de compras">
-  <img class="icono" src="/public/images/avatar.png" alt="icono de usuario">
+  <img class="icono cart" src="./public/images/carrito-de-compras.png" alt="icono de carrito de compras">
+  <img class="icono" src="./public/images/avatar.png" alt="icono de usuario">
 </div>
   </div>
 </div>
   
 	  <nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container-fluid">
-		  <a class="navbar-brand" href="/index.html">Inicio</a>
+		  <a class="navbar-brand" href="./index.html">Inicio</a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
@@ -49,7 +49,7 @@ const insertHeader = () => {
 				<a class="nav-link active" aria-current="page" href="#">Catalogo</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="/public/sources/pages/acercaDeNosotros/acercaDe.html">Sobre Nosotros</a>
+				<a class="nav-link" href="./public/sources/pages/acercaDeNosotros/acercaDe.html">Sobre Nosotros</a>
 			  </li>
 			  <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Comunidad</a>
