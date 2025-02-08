@@ -5,6 +5,12 @@ body {
   background-color: #f9f9f9;
 }
 
+P {
+  font-family: 'Nokora', sans-serif;
+  margin: 30px;
+  padding: 10px;
+}
+
 main {
   padding: 20px;
   text-align: center;
@@ -17,6 +23,7 @@ main {
 
 h1 {
   color: #00745F;
+  margin: 30px;
 }
 
 .paragraph {
