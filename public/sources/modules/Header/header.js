@@ -15,7 +15,7 @@ const insertHeader = () => {
       <!-- Botón de búsqueda (Lupa) -->
       <div class="d-flex justify-content-center align-items-center me-3">
         <button id="lupa" class="btn btn-outline-success btn-sm btn-lupa" type="submit">
-          <img class="icono-lupa" src="./public/images/lupa.png" alt="lupa">
+          <i class="fa-solid fa-magnifying-glass fa-2xl icono-lupa"></i>
         </button>
       </div>
       
@@ -31,8 +31,8 @@ const insertHeader = () => {
 
  <!-- Carrito y Avatar -->
 <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-2 mt-md-0">
-  <img class="icono cart" src="./public/images/carrito-de-compras.png" alt="icono de carrito de compras">
-  <img class="icono" src="./public/images/avatar.png" alt="icono de usuario">
+  <i class="fa-solid fa-cart-shopping fa-2xl icono cart"></i>
+  <i class="fa-solid fa-user fa-2xl icono"></i>
 </div>
   </div>
 </div>
