@@ -6,15 +6,15 @@ const insertHeader = () => {
   <!-- Barra superior con el logo, búsqueda y los iconos -->
   <div class="row align-items-center">
 	<!-- Logo -->
-	<div class="col-4 col-md-2 d-flex justify-content-start">
+	<div class="col-3 col-md-2 d-flex justify-content-start">
  	 	<img class="logo img-fluid p-1" src="./public/images/image.png" alt="Logo AgroMX">
 	</div>
 
     <!-- Lupa y barra de búsqueda -->
-    <div class="col-8 col-md-6 d-flex justify-content-center align-items-center">
-      <!-- Botón de búsqueda (Lupa) -->
+    <div class="col-5 col-md-6 d-flex justify-content-center align-items-center">
+      <!-- Botón de búsqueda (Lupa) --> 
       <div class="d-flex justify-content-center align-items-center me-3">
-        <button id="lupa" class="btn btn-outline-success btn-sm btn-lupa" type="submit">
+        <button id="lupa" class="btn btn-outline-success btn-lupa d-none d-sm-block" type="submit">
           <i class="fa-solid fa-magnifying-glass fa-2xl icono-lupa"></i>
         </button>
       </div>
@@ -22,7 +22,7 @@ const insertHeader = () => {
       <!-- Barra de búsqueda -->
       <div class="d-flex justify-content-center w-100">
         <form class="d-flex w-100" role="search">
-          <input class="form-control me-2 w-100 barra-busqueda" type="search" placeholder="Busca tu producto" aria-label="Search">
+          <input class="form-control me-2 w-100 barra-busqueda d-none d-sm-block" type="search" placeholder="Busca tu producto" aria-label="Search">
         </form>
       </div>
     </div>
@@ -30,7 +30,7 @@ const insertHeader = () => {
 
 
  <!-- Carrito y Avatar -->
-<div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-2 mt-md-0">
+<div class="col-4 col-md-4 d-flex justify-content-center align-items-center mt-2 mt-md-0">
   <i class="fa-solid fa-cart-shopping fa-2xl icono cart"></i>
   <i class="fa-solid fa-user fa-2xl icono"></i>
 </div>
@@ -67,9 +67,8 @@ const insertHeader = () => {
 		  </div>
 		</div>
 	  </nav>`;
-  
+
 	return header;
-  };
-  
-  insertHeader();
-  
+};
+
+insertHeader();
