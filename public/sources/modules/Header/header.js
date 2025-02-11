@@ -6,16 +6,16 @@ const insertHeader = () => {
   <!-- Barra superior con el logo, búsqueda y los iconos -->
   <div class="row align-items-center">
 	<!-- Logo -->
-	<div class="col-4 col-md-2 d-flex justify-content-start">
+	<div class="col-3 col-md-2 d-flex justify-content-start">
  	 	<img class="logo img-fluid p-1" src="Bohorquezjael/AgroMX-FrontEnd/public/images/image.png" alt="Logo AgroMX">
 	</div>
 
     <!-- Lupa y barra de búsqueda -->
-    <div class="col-8 col-md-6 d-flex justify-content-center align-items-center">
+    <div class="col-5 col-md-6 d-flex d-sm-block-none justify-content-center align-items-center">
       <!-- Botón de búsqueda (Lupa) -->
       <div class="d-flex justify-content-center align-items-center me-3">
-        <button id="lupa" class="btn btn-outline-success btn-sm btn-lupa" type="submit">
-          <i class="fa-solid fa-magnifying-glass fa-2xl icono-lupa"></i>
+        <button id="lupa" class="btn btn-outline-success btn-lupa" type="submit">
+          <i class="fa-solid fa-magnifying-glass fa-2xl .fa-sm-none icono-lupa"></i>
         </button>
       </div>
       
@@ -30,7 +30,7 @@ const insertHeader = () => {
 
 
  <!-- Carrito y Avatar -->
-<div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-2 mt-md-0">
+<div class="col-4 col-md-4 d-flex justify-content-center align-items-center mt-2 mt-md-0">
   <i class="fa-solid fa-cart-shopping fa-2xl icono cart"></i>
   <i class="fa-solid fa-user fa-2xl icono"></i>
 </div>
