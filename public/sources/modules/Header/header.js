@@ -1,9 +1,7 @@
 const insertHeader = () => {
   const header = document.getElementById("header");
   header.innerHTML = `
-
-
-  <div class="container-fluid greenLine"></div>
+	const header = document.getElementById("header");
   <div class="container-fluid">
     <!-- Barra superior con el logo, búsqueda y los iconos -->
     <div class="row align-items-center">
