@@ -2,9 +2,13 @@ const insertMainFooter = () => {
     const footer = document.getElementById("footer");
 
     footer.innerHTML = `
-<div class="container-fluid text-white py-4">
+    <div class="col-12 text-center">
+        <img class="logo img-fluid p-1" src="/public/images/image.png" alt="Logo AgroMX">
+    </div>
+    <div class="container-fluid text-white py-4">
     <div class="row">
-    
+
+        <!-- Necesitas Ayuda -->
         <div class="col-4 col-md-3 col-lg-3 text-center">
             <h6 class="fw-bold">¿Necesitas ayuda?</h6>
             <p class="mb-1"><strong>Tel. 555 324 6353</strong></p>
@@ -13,18 +17,19 @@ const insertMainFooter = () => {
             <p class="mb-0">9:00 a 18:00 h</p>
         </div>
 
+        <!-- Acerca de nosotros -->
         <div class = "col-4 col-md-3 col-lg-3 text-center">
         <a href="./public/sources/pages/acercaDeNosotros/acercaDe.html"><strong>Developer Team</strong></a><br>
         </div>
 
-        
+        <!-- Registráte -->
         <div class="col-4 col-md-3 col-lg-3 text-center">
         <h6 class="fw-bold">Regístrate</h6>
         <h4 class="fw-bold mt-3 p-1">AgroMX </h4>
         <i class="fa-regular fa-copyright fa-xl"></i>
         </div>
 
-        
+        <!-- Logos de redes sociales -->
         <div class="col-12 col-md-3 col-lg-3 text-center">
           <div class="d-flex justify-content-center align-items-center">
               <div class="text-center mx-3 my-4">
