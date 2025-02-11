@@ -1,3 +1,15 @@
+.mako-regular {
+  font-family: "Mako", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gabriela-regular {
+  font-family: "Gabriela", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root{
   --greenPrimary: #007D3C;
 }
@@ -9,7 +21,7 @@ body::-webkit-scrollbar{
 
 header,
 footer {
-  font-family: 'Nokora', sans-serif;
+  font-family: 'Mako', serif;
 }
 
 #sobre-nosotros {
@@ -28,7 +40,7 @@ h6 {
 }
 
 .navbar,
-.footer {
+#footer {
   background-color: var(--greenPrimary);
   /* Color de fondo */
 }
@@ -111,9 +123,21 @@ a:hover {
   flex-direction: row; /* Asegura que estén en una línea horizontal */
 }
 
+
 .barra-busqueda{
   border-color: black !important;
   border-width: 0px !important;
   border-radius: 0px 0px 0px 0px !important;
   background-color: rgb(128, 128, 128, 0.10) !important;
 }
+
+.inicio-footer{
+  background-color: white;
+}
+
+#slogan-footer{
+  font-family: 'Mako', serif;
+  font-size: 3vw;
+  color: #768300;
+}
+
