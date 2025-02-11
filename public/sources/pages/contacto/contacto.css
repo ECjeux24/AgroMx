@@ -1,0 +1,33 @@
+
+.nokora-regular {
+    font-family: "Nokora", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.mako-regular {
+    font-family: "Mako", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.usuario{
+    color: black;
+    font-family: "Mako", serif;
+}
+
+.nombre{
+    color: black;
+    font-family: "Mako", serif;
+}
+
+.email{
+    color: black;
+    font-family: "Mako", serif;
+}
+
+.contraseña{
+    color: black;
+    font-family: "Mako", serif;
+}
+
