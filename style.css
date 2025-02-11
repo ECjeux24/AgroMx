@@ -42,7 +42,12 @@ h6 {
 .navbar,
 #footer {
   background-color: var(--greenPrimary);
+  font-family: "Mako", serif;
   /* Color de fondo */
+}
+
+h6 #footer{
+  font-family: "Mako", serif;
 }
 
 footer {
