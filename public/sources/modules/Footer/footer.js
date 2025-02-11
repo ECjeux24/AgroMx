@@ -2,8 +2,9 @@ const insertMainFooter = () => {
     const footer = document.getElementById("footer");
 
     footer.innerHTML = `
-    <div class="col-12 text-center">
+    <div class="col-12 text-center inicio-footer">
         <img class="logo img-fluid p-1" src="/public/images/image.png" alt="Logo AgroMX">
+        <p id="slogan-footer"><strong>Alimentos sanos, comercio justo, futuro sostenible</strong></p>
     </div>
     <div class="container-fluid text-white py-4">
     <div class="row">
