@@ -5,6 +5,10 @@ body {
   background-color: #f9f9f9;
 }
 
+p {
+  font-family: 'Nokora', sans-serif;
+}
+
 main {
   padding: 20px;
   text-align: center;
@@ -17,9 +21,10 @@ main {
 
 h1 {
   color: #00745F;
+  margin: 30px;
 }
 
-p {
+.paragraph {
   color: #000000;
 }
 
@@ -37,6 +42,11 @@ p {
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card h3 {
