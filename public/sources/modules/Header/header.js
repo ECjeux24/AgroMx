@@ -61,7 +61,8 @@ const insertHeader = () => {
 				</ul>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link disabled" aria-disabled="true">Contacto</a>
+				<a class="nav-link"  href="/public/sources/pages/contacto/contacto.html" aria-disabled="true" >Contacto</a>
+				
 			  </li>
 			</ul>
 		  </div>
