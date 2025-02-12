@@ -74,6 +74,7 @@ const insertHeader = () => {
     </div>
   </nav>`;
   return header;
+
 };
 
 insertHeader();

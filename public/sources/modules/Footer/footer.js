@@ -22,12 +22,14 @@ const insertMainFooter = () => {
       <a href="/public/sources/pages/acercaDeNosotros/acercaDe.html"><strong>Developer Team</strong></a><br>
     </div>
 
+
     <!-- Registráte -->
     <div class="col-4 col-md-3 col-lg-3 text-center">
       <h6 class="fw-bold">Regístrate</h6>
       <h4 class="fw-bold mt-3 p-1">AgroMX </h4>
       <i class="fa-regular fa-copyright fa-xl"></i>
     </div>
+
 
     <!-- Logos de redes sociales -->
     <div class="col-12 col-md-3 col-lg-3 text-center">
