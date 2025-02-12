@@ -20,7 +20,7 @@ const insertMainFooter = () => {
 
         <!-- Acerca de nosotros -->
         <div class = "col-4 col-md-3 col-lg-3 text-center">
-        <a href="./public/sources/pages/acercaDeNosotros/acercaDe.html"><strong>Developer Team</strong></a><br>
+        <a href="/public/sources/pages/acercaDeNosotros/acercaDe.html"><strong>Developer Team</strong></a><br>
         </div>
 
         <!-- Registráte -->
