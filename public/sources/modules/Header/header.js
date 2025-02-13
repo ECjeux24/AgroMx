@@ -30,9 +30,11 @@ const insertHeader = () => {
   
   
       <!-- Carrito y Avatar -->
-      <div class="col-4 col-md-4 d-flex justify-content-center align-items-center mt-2 mt-md-0">
+    <div class="col-4 col-md-4 d-flex justify-content-center align-items-center mt-2 mt-md-0">
+      <a class="nav-link active" aria-current="page" href="/public/sources/pages/carrito/carrito.html">
         <i class="fa-solid fa-cart-shopping fa-2xl icono cart"></i>
-        <i class="fa-solid fa-user fa-2xl icono"></i>
+      </a>
+      <i class="fa-solid fa-user fa-2xl icono"></i>
       </div>
     </div>
   </div>
@@ -58,11 +60,10 @@ const insertHeader = () => {
               aria-expanded="false">Comunidad</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item text-dark" href="#">Recetas</a></li>
-              <li><a class="dropdown-item text-dark" href="#">Catalogos</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item text-dark" href="#">Comunidad</a></li>
+              <li><a class="dropdown-item text-dark" href="/public/sources/pages/comunidad/comunidad.html">Comunidad</a></li>
             </ul>
           </li>
           <li class="nav-item">
