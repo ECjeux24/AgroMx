@@ -14,10 +14,10 @@
   --greenPrimary: #007D3C;
 }
 
-body::-webkit-scrollbar{
+/*body::-webkit-scrollbar{
   width: 0px;
   height: 0px;
-}
+}*/
 
 header,
 footer {
@@ -100,21 +100,25 @@ a:hover {
 }
 
 .btn-lupa{
-  padding: 5px 10px;  
-  font-size: 12px;    
-  width: 35px;        
-  height: 35px;
- 
+  /* padding: 5px 10px; */
+  font-size: 15px;
+  width: 45px;
+  height: 30px;
 }
 
 .icono-lupa{
-  width: 15px;         
+  font-size: 1.5em; 
+  color: black;    
+}
+
+#lupa{
+  border-width: 0px;
 }
 
 .icono {
   width: 40px;  
   height: auto;
-  margin: 0 10px; /* Espacio uniforme a los lados */
+  margin: 0 10px; /* */
 }
 
 .col-4.col-md-4.d-flex {
@@ -122,6 +126,14 @@ a:hover {
   align-items: center;  /* Alinea verticalmente */
   gap: 15px;  /* Espaciado horizontal entre los iconos */
   flex-direction: row; /* Asegura que estén en una línea horizontal */
+}
+
+
+.barra-busqueda{
+  border-color: black !important;
+  border-width: 0px !important;
+  border-radius: 0px 0px 0px 0px !important;
+  background-color: rgb(128, 128, 128, 0.10) !important;
 }
 
 .inicio-footer{
@@ -133,3 +145,8 @@ a:hover {
   font-size: 3vw;
   color: #768300;
 }
+
+.fa-cart-shopping { /* Ajusta el tamaño */
+  color: #000;     /* Cambia el color del icono para verlo claramente */
+}
+
