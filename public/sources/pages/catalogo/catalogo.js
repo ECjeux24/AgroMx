@@ -2,7 +2,7 @@
 import { insertMainFooter } from "/src/modules/footer/footer.js";
 */
 
-import { getProducts } from "../../modules/api/getProducts/getProducts.js";
+import { getProducts } from "/public/sources/modules/api/getProducts.js";
 
 /*
 insertMainHeader();

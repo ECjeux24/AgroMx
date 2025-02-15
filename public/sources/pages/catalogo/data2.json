@@ -1,5 +1,4 @@
-{
-  "productos": [
+[
     {
       "id": 1,
       "nombre": "Manzana",
@@ -281,4 +280,3 @@
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cherimoya.jpg/640px-Cherimoya.jpg"
     }
   ]
-}
