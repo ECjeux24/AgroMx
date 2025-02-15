@@ -4,12 +4,12 @@ const generateCardsOfProducts = (products) => {
   const productsObj = products.map((product) => {
     const newProduct = new ProductCard(
       product.id,
-      product.title,
-      product.description,
-      product.price,
-      product.category,
-      product.image,
-      product.rating
+      product.nombre,
+      product.categoria,
+      product.precio,
+      product.descripcion,
+      product.imagen,
+
     );
 
     return newProduct.generateHTML();
