@@ -1,16 +1,13 @@
+/* import { insertMainHeader } from "/src/modules/header/header.js";
+import { insertMainFooter } from "/src/modules/footer/footer.js";
+*/
 
-const getProducts = async( url ) => {
+import { getProducts } from "../../modules/api/getProducts/getProducts.js";
 
-    try {
-        const response = await fetch("/public/sources/pages/catalogo/data2.json");
-        const products = await response.json();
-        // TODO crear función DTO  cont productsDTO = conversionDTO( products);
-        // TODO const cards = generateCardsOfProducts( productsDTO );
-        const cards = generateCardsOfProducts( products );
-        insertCardsToHTML( cards );            
-    } catch (error) {
-        console.error( error );
-    }
-}
+/*
+insertMainHeader();
+insertMainFooter();
+*/
 
-generateCardsOfProducts = ()
+
+getProducts('/public/sources/pages/catalogo/data2.json');
