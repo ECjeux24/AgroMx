@@ -1,4 +1,4 @@
-// import { CardImage } from "/public/sources/modules/card/card-image/CardImage.js";
+import { CardImage } from "/public/sources/modules/card/card-image/CardImage.js";
 //FIXME: 
 
 class ProductCard {
@@ -9,17 +9,16 @@ class ProductCard {
         this.precio = precio;
         //!FIXME: tratar el atributo descrpcion : no mostrar en el HTML
         this.descripcion = descripcion;
-        this.imagen = imagen;
-        //! this.imagen = new CardImage(imagen, nombre);
+        this.imagen = new CardImage(imagen, nombre);
     }
     //? Método para generar el HTML de la tarjeta
     
     generateHTML() {
         return `
-            <div class="col-12 col-md-6 col-lg-4 p-2">
-                <div class="card h-100" > 
+            <div class="d-flex col-md-2 col-lg-2 p-2">
+                <div class="card h-60" > 
                     <figure class="p-1" >                   
-                        <img src="" class="card-img-top product-img" alt="">
+                        <img src="${this.imagen.getImageUrl()}" class="card-img-top product-img img-thumbnail" alt="${this.imagen.description}">
                     <figure> 
                     <div class="card-body">
                         <div class="card-title-container">
