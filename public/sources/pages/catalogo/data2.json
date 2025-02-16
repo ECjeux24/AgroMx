@@ -1,282 +1,389 @@
 [
-    {
-      "id": 1,
-      "nombre": "Manzana",
-      "categoria": "Frutas",
-      "precio": 28.00,
-      "descripcion": "Manzana roja fresca y jugosa.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/640px-Red_Apple.jpg"
-    },
-    {
-      "id": 2,
-      "nombre": "Plátano",
-      "categoria": "Frutas",
-      "precio": 18.00,
-      "descripcion": "Plátano amarillo y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/640px-Banana-Single.jpg"
-    },
-    {
-      "id": 3,
-      "nombre": "Naranja",
-      "categoria": "Frutas",
-      "precio": 24.00,
-      "descripcion": "Naranja dulce y rica en vitamina C.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/640px-Ambersweet_oranges.jpg"
-    },
-    {
-      "id": 4,
-      "nombre": "Zanahoria",
-      "categoria": "Verduras",
-      "precio": 12.00,
-      "descripcion": "Zanahoria fresca y crujiente.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Carrots.jpg/640px-Carrots.jpg"
-    },
-    {
-      "id": 5,
-      "nombre": "Tomate",
-      "categoria": "Verduras",
-      "precio": 22.00,
-      "descripcion": "Tomate rojo y jugoso.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/640px-Tomato_je.jpg"
-    },
-    {
-      "id": 6,
-      "nombre": "Lechuga",
-      "categoria": "Verduras",
-      "precio": 14.00,
-      "descripcion": "Lechuga fresca y crujiente.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Salad_greens_aka.jpg/640px-Salad_greens_aka.jpg"
-    },
-    {
-      "id": 7,
-      "nombre": "Pimiento",
-      "categoria": "Verduras",
-      "precio": 26.00,
-      "descripcion": "Pimiento rojo y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Capsicum_annuum_fruits_IMGP0074.jpg/640px-Capsicum_annuum_fruits_IMGP0074.jpg"
-    },
-    {
-      "id": 8,
-      "nombre": "Cebolla",
-      "categoria": "Verduras",
-      "precio": 15.00,
-      "descripcion": "Cebolla amarilla y fresca.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Onion_on_White.JPG/640px-Onion_on_White.JPG"
-    },
-    {
-      "id": 9,
-      "nombre": "Ajo",
-      "categoria": "Verduras",
-      "precio": 8.00,
-      "descripcion": "Ajo fresco y aromático.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Allium_sativum%2C_Garlic_head%2C_single.JPG/640px-Allium_sativum%2C_Garlic_head%2C_single.JPG"
-    },
-    {
-      "id": 10,
-      "nombre": "Papa",
-      "categoria": "Verduras",
-      "precio": 10.00,
-      "descripcion": "Papa blanca y fresca.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/640px-Patates.jpg"
-    },
-    {
-      "id": 11,
-      "nombre": "Calabacín",
-      "categoria": "Verduras",
-      "precio": 24.00,
-      "descripcion": "Calabacín verde y fresco.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Zucchini_with_Flower.jpg/640px-Zucchini_with_Flower.jpg"
-    },
-    {
-      "id": 12,
-      "nombre": "Brócoli",
-      "categoria": "Verduras",
-      "precio": 35.00,
-      "descripcion": "Brócoli fresco y saludable.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/640px-Broccoli_and_cross_section_edit.jpg"
-    },
-    {
-      "id": 13,
-      "nombre": "Espinaca",
-      "categoria": "Verduras",
-      "precio": 28.00,
-      "descripcion": "Espinaca fresca y nutritiva.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Spinach_leaves.jpg/640px-Spinach_leaves.jpg"
-    },
-    {
-      "id": 14,
-      "nombre": "Pepino",
-      "categoria": "Verduras",
-      "precio": 18.00,
-      "descripcion": "Pepino fresco y crujiente.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cucumber_with_blossom_end.jpg/640px-Cucumber_with_blossom_end.jpg"
-    },
-    {
-      "id": 15,
-      "nombre": "Calabaza",
-      "categoria": "Verduras",
-      "precio": 48.00,
-      "descripcion": "Calabaza fresca y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pumpkin.jpg/640px-Pumpkin.jpg"
-    },
-    {
-      "id": 16,
-      "nombre": "Limón",
-      "categoria": "Frutas",
-      "precio": 12.00,
-      "descripcion": "Limón fresco y ácido.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lemon.jpg/640px-Lemon.jpg"
-    },
-    {
-      "id": 17,
-      "nombre": "Uva",
-      "categoria": "Frutas",
-      "precio": 60.00,
-      "descripcion": "Uva dulce y jugosa.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Varieties_of_grapes.jpg/640px-Varieties_of_grapes.jpg"
-    },
-    {
-      "id": 18,
-      "nombre": "Fresa",
-      "categoria": "Frutas",
-      "precio": 72.00,
-      "descripcion": "Fresa roja y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Strawberry_5.jpg/640px-Strawberry_5.jpg"
-    },
-    {
-      "id": 19,
-      "nombre": "Kiwi",
-      "categoria": "Frutas",
-      "precio": 43.00,
-      "descripcion": "Kiwi fresco y jugoso.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Kiwi_aka.jpg/640px-Kiwi_aka.jpg"
-    },
-    {
-      "id": 20,
-      "nombre": "Mango",
-      "categoria": "Frutas",
-      "precio": 52.00,
-      "descripcion": "Mango dulce y jugoso.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/640px-Hapus_Mango.jpg"
-    },
-    {
-      "id": 21,
-      "nombre": "Piña",
-      "categoria": "Frutas",
-      "precio": 60.00,
-      "descripcion": "Piña fresca y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/640px-Pineapple_and_cross_section.jpg"
-    },
-    {
-      "id": 22,
-      "nombre": "Sandía",
-      "categoria": "Frutas",
-      "precio": 84.00,
-      "descripcion": "Sandía fresca y jugosa.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Watermelon.jpg/640px-Watermelon.jpg"
-    },
-    {
-      "id": 23,
-      "nombre": "Melón",
-      "categoria": "Frutas",
-      "precio": 67.00,
-      "descripcion": "Melón fresco y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cantaloupe.jpg/640px-Cantaloupe.jpg"
-    },
-    {
-      "id": 14,
-      "nombre": "Limón",
-      "categoria": "Frutas",
-      "precio": 12.00,
-      "descripcion": "Limón fresco y ácido.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lemon.jpg/640px-Lemon.jpg"
-    },
-    {
-      "id": 25,
-      "nombre": "Uva",
-      "categoria": "Frutas",
-      "precio": 60.00,
-      "descripcion": "Uva dulce y jugosa.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Varieties_of_grapes.jpg/640px-Varieties_of_grapes.jpg"
-    },
-    {
-      "id": 26,
-      "nombre": "Fresa",
-      "categoria": "Frutas",
-      "precio": 72.00,
-      "descripcion": "Fresa roja y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Strawberry_5.jpg/640px-Strawberry_5.jpg"
-    },
-    {
-      "id": 27,
-      "nombre": "Kiwi",
-      "categoria": "Frutas",
-      "precio": 43.00,
-      "descripcion": "Kiwi fresco y jugoso.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Kiwi_aka.jpg/640px-Kiwi_aka.jpg"
-    },
-    {
-      "id": 28,
-      "nombre": "Mango",
-      "categoria": "Frutas",
-      "precio": 52.00,
-      "descripcion": "Mango dulce y jugoso.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/640px-Hapus_Mango.jpg"
-    },
-    {
-      "id": 29,
-      "nombre": "Piña",
-      "categoria": "Frutas",
-      "precio": 60.00,
-      "descripcion": "Piña fresca y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/640px-Pineapple_and_cross_section.jpg"
-    },
-    {
-      "id": 30,
-      "nombre": "Sandía",
-      "categoria": "Frutas",
-      "precio": 84.00,
-      "descripcion": "Sandía fresca y jugosa.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Watermelon.jpg/640px-Watermelon.jpg"
-    },
-    {
-      "id": 31,
-      "nombre": "Melón",
-      "categoria": "Frutas",
-      "precio": 67.00,
-      "descripcion": "Melón fresco y dulce.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cantaloupe.jpg/640px-Cantaloupe.jpg"
-    },
-    {
-      "id": 32,
-      "nombre": "Lima",
-      "categoria": "Frutas",
-      "precio": 14.00,
-      "descripcion": "Lima fresca y ácida.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Limes.jpg/640px-Limes.jpg"
-    },
-    {
-      "id": 33,
-      "nombre": "Mandarina",
-      "categoria": "Frutas",
-      "precio": 26.00,
-      "descripcion": "Mandarina dulce y jugosa.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mandarin_Oranges_%28Citrus_Reticulata%29.jpg/640px-Mandarin_Oranges_%28Citrus_Reticulata%29.jpg"
-    },
-    {
-      "id": 34,
-      "nombre": "Pomelo",
-      "categoria": "Frutas",
-      "precio": 31.00,
-      "descripcion": "Pomelo fresco y ácido.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pomelo.jpg/640px-Pomelo.jpg"
-    },
-    {
-      "id": 35,
-      "nombre": "Chirimoya",
-      "categoria": "Frutas",
-      "precio": 72.00,
-      "descripcion": "Chirimoya dulce y jugosa.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cherimoya.jpg/640px-Cherimoya.jpg"
-    }
-  ]
+  {
+    "id": 1,
+    "nombre": "Manzana",
+    "categoria": "Frutas",
+    "precio": 28.00,
+    "descripcion": "Manzana roja fresca y jugosa.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/640px-Red_Apple.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Plátano",
+    "categoria": "Frutas",
+    "precio": 18.00,
+    "descripcion": "Plátano amarillo y dulce.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/640px-Banana-Single.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Naranja",
+    "categoria": "Frutas",
+    "precio": 24.00,
+    "descripcion": "Naranja dulce y rica en vitamina C.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/640px-Ambersweet_oranges.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Zanahoria",
+    "categoria": "Verduras",
+    "precio": 12.00,
+    "descripcion": "Zanahoria fresca y crujiente.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Carrots.jpg/640px-Carrots.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Tomate",
+    "categoria": "Verduras",
+    "precio": 22.00,
+    "descripcion": "Tomate rojo y jugoso.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/640px-Tomato_je.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Lechuga",
+    "categoria": "Verduras",
+    "precio": 14.00,
+    "descripcion": "Lechuga fresca y crujiente.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Salad_greens_aka.jpg/640px-Salad_greens_aka.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Pimiento",
+    "categoria": "Verduras",
+    "precio": 26.00,
+    "descripcion": "Pimiento rojo y dulce.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Capsicum_annuum_fruits_IMGP0074.jpg/640px-Capsicum_annuum_fruits_IMGP0074.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Cebolla",
+    "categoria": "Verduras",
+    "precio": 15.00,
+    "descripcion": "Cebolla amarilla y fresca.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Onion_on_White.JPG/640px-Onion_on_White.JPG"
+  },
+  {
+    "id": 9,
+    "nombre": "Ajo",
+    "categoria": "Verduras",
+    "precio": 8.00,
+    "descripcion": "Ajo fresco y aromático.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Allium_sativum%2C_Garlic_head%2C_single.JPG/640px-Allium_sativum%2C_Garlic_head%2C_single.JPG"
+  },
+  {
+    "id": 10,
+    "nombre": "Papa",
+    "categoria": "Verduras",
+    "precio": 10.00,
+    "descripcion": "Papa blanca y fresca.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/640px-Patates.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Calabacín",
+    "categoria": "Verduras",
+    "precio": 24.00,
+    "descripcion": "Calabacín verde y fresco.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Zucchini_with_Flower.jpg/640px-Zucchini_with_Flower.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Brócoli",
+    "categoria": "Verduras",
+    "precio": 35.00,
+    "descripcion": "Brócoli fresco y saludable.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/640px-Broccoli_and_cross_section_edit.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Espinaca",
+    "categoria": "Verduras",
+    "precio": 28.00,
+    "descripcion": "Espinaca fresca y nutritiva.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Spinach_leaves.jpg/640px-Spinach_leaves.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Pepino",
+    "categoria": "Verduras",
+    "precio": 18.00,
+    "descripcion": "Pepino fresco y crujiente.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cucumber_with_blossom_end.jpg/640px-Cucumber_with_blossom_end.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Calabaza",
+    "categoria": "Verduras",
+    "precio": 48.00,
+    "descripcion": "Calabaza fresca y dulce.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pumpkin.jpg/640px-Pumpkin.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Limón",
+    "categoria": "Frutas",
+    "precio": 12.00,
+    "descripcion": "Limón fresco y ácido.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lemon.jpg/640px-Lemon.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Uva",
+    "categoria": "Frutas",
+    "precio": 60.00,
+    "descripcion": "Uva dulce y jugosa.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Varieties_of_grapes.jpg/640px-Varieties_of_grapes.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Fresa",
+    "categoria": "Frutas",
+    "precio": 72.00,
+    "descripcion": "Fresa roja y dulce.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Strawberry_5.jpg/640px-Strawberry_5.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Kiwi",
+    "categoria": "Frutas",
+    "precio": 43.00,
+    "descripcion": "Kiwi fresco y jugoso.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Kiwi_aka.jpg/640px-Kiwi_aka.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Mango",
+    "categoria": "Frutas",
+    "precio": 52.00,
+    "descripcion": "Mango dulce y jugoso.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/640px-Hapus_Mango.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Piña",
+    "categoria": "Frutas",
+    "precio": 60.00,
+    "descripcion": "Piña fresca y dulce.",
+    "imagen": "https://alacenademonica.com/cdn/shop/products/pina_600x.png?v=1633537231"
+  },
+  {
+    "id": 22,
+    "nombre": "Sandía",
+    "categoria": "Frutas",
+    "precio": 84.00,
+    "descripcion": "Sandía fresca y jugosa.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Watermelon.jpg/640px-Watermelon.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Melón",
+    "categoria": "Frutas",
+    "precio": 67.00,
+    "descripcion": "Melón fresco y dulce.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cantaloupe.jpg/640px-Cantaloupe.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Lima",
+    "categoria": "Frutas",
+    "precio": 14.00,
+    "descripcion": "Lima fresca y ácida.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Limes.jpg/640px-Limes.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Mandarina",
+    "categoria": "Frutas",
+    "precio": 26.00,
+    "descripcion": "Mandarina dulce y jugosa.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mandarin_Oranges_%28Citrus_Reticulata%29.jpg/640px-Mandarin_Oranges_%28Citrus_Reticulata%29.jpg"
+  },
+  {
+    "id": 26,
+    "nombre": "Pomelo",
+    "categoria": "Frutas",
+    "precio": 31.00,
+    "descripcion": "Pomelo fresco y ácido.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pomelo.jpg/640px-Pomelo.jpg"
+  },
+  {
+    "id": 50,
+    "nombre": "Chirimoya",
+    "categoria": "Frutas",
+    "precio": 72.00,
+    "descripcion": "Chirimoya dulce y jugosa.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cherimoya.jpg/640px-Cherimoya.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Chile guajillo seco",
+    "categoria": "Chiles secos",
+    "precio": 0.70,
+    "stock": 130,
+    "descripcion": "Chile guajillo seco y picante.",
+    "imagen": "https://ejemplo.com/chile-guajillo-seco.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Chile ancho seco",
+    "categoria": "Chiles secos",
+    "precio": 0.80,
+    "stock": 120,
+    "descripcion": "Chile ancho seco y picante.",
+    "imagen": "https://ejemplo.com/chile-ancho-seco.jpg"
+  },
+  {
+    "id": 29,
+    "nombre": "Chile pasilla seco",
+    "categoria": "Chiles secos",
+    "precio": 0.90,
+    "stock": 110,
+    "descripcion": "Chile pasilla seco y picante.",
+    "imagen": "https://ejemplo.com/chile-pasilla-seco.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Chile chipotle seco",
+    "categoria": "Chiles secos",
+    "precio": 1.00,
+    "stock": 100,
+    "descripcion": "Chile chipotle seco y ahumado.",
+    "imagen": "https://ejemplo.com/chile-chipotle-seco.jpg"
+  },
+  {
+    "id": 31,
+    "nombre": "Chile cascabel seco",
+    "categoria": "Chiles secos",
+    "precio": 0.90,
+    "stock": 110,
+    "descripcion": "Chile cascabel seco y picante.",
+    "imagen": "https://ejemplo.com/chile-cascabel-seco.jpg"
+  },
+  {
+    "id": 32,
+    "nombre": "Chile mulato seco",
+    "categoria": "Chiles secos",
+    "precio": 0.80,
+    "stock": 120,
+    "descripcion": "Chile mulato seco y picante.",
+    "imagen": "https://ejemplo.com/chile-mulato-seco.jpg"
+  },
+  {
+    "id": 33,
+    "nombre": "Chile de agua seco",
+    "categoria": "Chiles secos",
+    "precio": 0.70,
+    "stock": 130,
+    "descripcion": "Chile de agua seco y suave.",
+    "imagen": "https://ejemplo.com/chile-agua-seco.jpg"
+  },
+  {
+    "id": 34,
+    "nombre": "Chile manzano seco",
+    "categoria": "Chiles secos",
+    "precio": 0.80,
+    "stock": 120,
+    "descripcion": "Chile manzano seco y picante.",
+    "imagen": "https://ejemplo.com/chile-manzano-seco.jpg"
+  },
+  {
+    "id": 35,
+    "nombre": "Chile piquín seco",
+    "categoria": "Chiles secos",
+    "precio": 0.90,
+    "stock": 110,
+    "descripcion": "Chile piquín seco y muy picante.",
+    "imagen": "https://ejemplo.com/chile-piquin-seco.jpg"
+  },
+  {
+    "id": 36,
+    "nombre": "Chile chiltepín seco",
+    "categoria": "Chiles secos",
+    "precio": 1.00,
+    "stock": 100,
+    "descripcion": "Chile chiltepín seco y muy picante.",
+    "imagen": "https://ejemplo.com/chile-chiltepin-seco.jpg"
+  },
+  {
+    "id": 37,
+    "nombre": "Chile de onza seco",
+    "categoria": "Chiles secos",
+    "precio": 0.90,
+    "stock": 110,
+    "descripcion": "Chile de onza seco y picante.",
+    "imagen": "https://ejemplo.com/chile-onza-seco.jpg"
+  },
+  {
+    "id": 38,
+    "nombre": "Semilla de girasol",
+    "categoria": "Semillas",
+    "precio": 1.50,
+    "stock": 200,
+    "descripcion": "Semilla de girasol tostada y salada.",
+    "imagen": "https://ejemplo.com/semilla-girasol.jpg"
+  },
+  {
+    "id": 39,
+    "nombre": "Semilla de calabaza",
+    "categoria": "Semillas",
+    "precio": 1.80,
+    "stock": 150,
+    "descripcion": "Semilla de calabaza tostada y salada.",
+    "imagen": "https://ejemplo.com/semilla-calabaza.jpg"
+  },
+  {
+    "id": 40,
+    "nombre": "Semilla de chía",
+    "categoria": "Semillas",
+    "precio": 2.50,
+    "stock": 100,
+    "descripcion": "Semilla de chía rica en omega-3.",
+    "imagen": "https://ejemplo.com/semilla-chia.jpg"
+  },
+  {
+    "id": 41,
+    "nombre": "Semilla de lino",
+    "categoria": "Semillas",
+    "precio": 2.00,
+    "stock": 120,
+    "descripcion": "Semilla de lino rica en fibra.",
+    "imagen": "https://ejemplo.com/semilla-lino.jpg"
+  },
+  {
+    "id": 42,
+    "nombre": "Semilla de sésamo",
+    "categoria": "Semillas",
+    "precio": 1.70,
+    "stock": 180,
+    "descripcion": "Semilla de sésamo tostada.",
+    "imagen": "https://ejemplo.com/semilla-sesamo.jpg"
+  },
+  {
+    "id": 43,
+    "nombre": "Semilla de amapola",
+    "categoria": "Semillas",
+    "precio": 2.20,
+    "stock": 90,
+    "descripcion": "Semilla de amapola para repostería.",
+    "imagen": "https://ejemplo.com/semilla-amapola.jpg"
+  },
+  {
+    "id": 44,
+    "nombre": "Semilla de quinoa",
+    "categoria": "Semillas",
+    "precio": 3.00,
+    "stock": 80,
+    "descripcion": "Semilla de quinoa rica en proteínas.",
+    "imagen": "https://ejemplo.com/semilla-quinoa.jpg"
+  },
+  {
+    "id": 45,
+    "nombre": "Semilla de amaranto",
+    "categoria": "Semillas",
+    "precio": 2.80,
+    "stock": 70,
+    "descripcion": "Semilla de amaranto rica en nutrientes.",
+    "imagen": "https://ejemplo.com/semilla-amaranto.jpg"
+  }
+]
