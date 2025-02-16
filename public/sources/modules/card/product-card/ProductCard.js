@@ -14,23 +14,20 @@ class ProductCard {
 
   generateHTML() {
     return `
-            <div class="d-flex col-md-2 col-lg-2 p-2">
-                <div class="card h-60" > 
-                    <figure class="p-1" >                   
+
+          <div class="d-flex col-4 col-sm-3 col-md-3 col-lg-2 p-1">
+                <div class="card" >
                         <img src="${this.imagen.getImageUrl()}" class="card-img-top product-img img-thumbnail" alt="${this.imagen.description}">
-                    <figure> 
                     <div class="card-body">
                         <div class="card-title-container">
                             <h5 title="${this.nombre}" class="card-nombre">
                             ${this.nombre.length > 50 ? this.nombre.substring(0, 47) + "..." : this.nombre}
                             </h5>
-                        </div>
-                        <div class="card-description-container my-2">
-                        </div>
+                        </div class= "texto-tarjeta">
                         <p class="card-text"><strong>Precio: $${this.precio}</strong></p>
                     </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Agregar a la canasta</a>
+                    <div class="card-footer h-100">
+                    <button class="btn btn-primary"> Agregar a la canasta</a>
                     </div>
                 </div>
             </div>
