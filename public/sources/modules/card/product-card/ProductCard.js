@@ -3,18 +3,17 @@ import { CardImage } from "/public/sources/modules/card/card-image/CardImage.js"
 
 class ProductCard {
 
-    constructor(id, nombre, precio, descripcion, imagen) {
-        this.id = id;
-        this.nombre = nombre;
-        this.precio = precio;
-        //!FIXME: tratar el atributo descrpcion : no mostrar en el HTML
-        this.descripcion = descripcion;
-        this.imagen = new CardImage(imagen, nombre);
-    }
-    //? Método para generar el HTML de la tarjeta
-    
-    generateHTML() {
-        return `
+  constructor(id, nombre, precio, imagen) {
+    this.id = id;
+    this.nombre = nombre;
+    this.precio = precio;
+    //!FIXME: tratar el atributo descrpcion : no mostrar en el HTML
+    this.imagen = new CardImage(imagen, nombre);
+  }
+  //? Método para generar el HTML de la tarjeta
+
+  generateHTML() {
+    return `
             <div class="d-flex col-md-2 col-lg-2 p-2">
                 <div class="card h-60" > 
                     <figure class="p-1" >                   
@@ -23,13 +22,10 @@ class ProductCard {
                     <div class="card-body">
                         <div class="card-title-container">
                             <h5 title="${this.nombre}" class="card-nombre">
-                            ${this.nombre.length > 50 ? this.nombre.substring(0,47)+"..." : this.nombre }
+                            ${this.nombre.length > 50 ? this.nombre.substring(0, 47) + "..." : this.nombre}
                             </h5>
                         </div>
                         <div class="card-description-container my-2">
-                            <p title="${this.descripcion}" class="card-text">
-                            ${this.descripcion.length > 70 ? this.descripcion.substring(0,67)+"..." :  this.descripcion }
-                            </p>                            
                         </div>
                         <p class="card-text"><strong>Precio: $${this.precio}</strong></p>
                     </div>
@@ -39,10 +35,10 @@ class ProductCard {
                 </div>
             </div>
         `;
-    }
+  }
 
 
 
 }
 
-export { ProductCard }
+export { ProductCard };
