@@ -1,170 +1,150 @@
 [
-  {
-    "id": 1,
-    "nombre": "Manzana",
-    "categoria": "Frutas",
-    "precio": 28.00,
-    "descripcion": "Manzana roja fresca y jugosa.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/640px-Red_Apple.jpg"
-  },
-  {
-    "id": 2,
-    "nombre": "Plátano",
-    "categoria": "Frutas",
-    "precio": 18.00,
-    "descripcion": "Plátano amarillo y dulce.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/640px-Banana-Single.jpg"
+    {
+      "id": 1,
+      "nombre": "Manzana",
+      "categoria": "Frutas",
+      "precio": 28.00,
+      "imagen": "//mercadoacasa.mx/cdn/shop/products/2502808-00-CH515Wx515H_7ddf79a2-30aa-4d06-829f-b896173133a0_grande.jpg?v=1588641604"
+    },
+    {
+      "id": 2,
+      "nombre": "Plátano",
+      "categoria": "Frutas",
+      "precio": 18.00,
+      "imagen": "https://mercadoacasa.mx/cdn/shop/products/platano-2_540x.jpg?v=1587779653"
   },
   {
     "id": 3,
     "nombre": "Naranja",
     "categoria": "Frutas",
     "precio": 24.00,
-    "descripcion": "Naranja dulce y rica en vitamina C.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/640px-Ambersweet_oranges.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/002/0023229_naranja-gota-de-miel_550.png"
   },
   {
     "id": 4,
     "nombre": "Zanahoria",
     "categoria": "Verduras",
     "precio": 12.00,
-    "descripcion": "Zanahoria fresca y crujiente.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Carrots.jpg/640px-Carrots.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/001/0019771_zanahoria-premium_550.png"
   },
   {
     "id": 5,
     "nombre": "Tomate",
     "categoria": "Verduras",
     "precio": 22.00,
-    "descripcion": "Tomate rojo y jugoso.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/640px-Tomato_je.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/005/0059750_tomate-verde-grande-premium-sin-cascara_550.png"
   },
   {
     "id": 6,
-    "nombre": "Lechuga",
+    "nombre": "Lechuga orejona",
     "categoria": "Verduras",
     "precio": 14.00,
-    "descripcion": "Lechuga fresca y crujiente.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Salad_greens_aka.jpg/640px-Salad_greens_aka.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/semilla-de-lechuga-italiana-1000-D_NQ_NP_802789-MLM33044235762_112019-F_540x.jpg?v=1587758884"
   },
   {
     "id": 7,
-    "nombre": "Pimiento",
+    "nombre": "Pimiento rojo",
     "categoria": "Verduras",
     "precio": 26.00,
-    "descripcion": "Pimiento rojo y dulce.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Capsicum_annuum_fruits_IMGP0074.jpg/640px-Capsicum_annuum_fruits_IMGP0074.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/pimiento_morron_rojo_1024x1024_b720cf3f-7ee6-497d-9267-6ebd6d125d32_540x.jpg?v=1587495466"
   },
   {
     "id": 8,
     "nombre": "Cebolla",
     "categoria": "Verduras",
     "precio": 15.00,
-    "descripcion": "Cebolla amarilla y fresca.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Onion_on_White.JPG/640px-Onion_on_White.JPG"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/006/0061467_cebolla-blanca-sin-pelar-chica_550.png"
   },
   {
     "id": 9,
     "nombre": "Ajo",
     "categoria": "Verduras",
     "precio": 8.00,
-    "descripcion": "Ajo fresco y aromático.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Allium_sativum%2C_Garlic_head%2C_single.JPG/640px-Allium_sativum%2C_Garlic_head%2C_single.JPG"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/003/0035487_ajo-italiano-cabeza-grande_550.png"
   },
   {
     "id": 10,
     "nombre": "Papa",
     "categoria": "Verduras",
     "precio": 10.00,
-    "descripcion": "Papa blanca y fresca.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/640px-Patates.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/006/0060301_papa-blanca-alfa-chica-125g-aprox_550.png"
   },
   {
     "id": 11,
     "nombre": "Calabacín",
     "categoria": "Verduras",
     "precio": 24.00,
-    "descripcion": "Calabacín verde y fresco.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Zucchini_with_Flower.jpg/640px-Zucchini_with_Flower.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/0000000004067L_540x.jpg?v=1587757880"
   },
   {
     "id": 12,
     "nombre": "Brócoli",
     "categoria": "Verduras",
     "precio": 35.00,
-    "descripcion": "Brócoli fresco y saludable.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/640px-Broccoli_and_cross_section_edit.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/005/0056592_brocoli-chico-400g-aprox_550.png"
   },
   {
     "id": 13,
     "nombre": "Espinaca",
     "categoria": "Verduras",
     "precio": 28.00,
-    "descripcion": "Espinaca fresca y nutritiva.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Spinach_leaves.jpg/640px-Spinach_leaves.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/000/0007067_espinaca-en-manojo-300g-aprox_550.jpeg"
   },
   {
     "id": 14,
     "nombre": "Pepino",
     "categoria": "Verduras",
     "precio": 18.00,
-    "descripcion": "Pepino fresco y crujiente.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cucumber_with_blossom_end.jpg/640px-Cucumber_with_blossom_end.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/002/0023664_pepino-criollo-de-campo-abierto_550.png"
   },
   {
     "id": 15,
     "nombre": "Calabaza",
     "categoria": "Verduras",
     "precio": 48.00,
-    "descripcion": "Calabaza fresca y dulce.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pumpkin.jpg/640px-Pumpkin.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/004/0043112_calabaza-de-castilla-grande-6kg-aprox_550.png"
   },
   {
     "id": 16,
     "nombre": "Limón",
     "categoria": "Frutas",
     "precio": 12.00,
-    "descripcion": "Limón fresco y ácido.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lemon.jpg/640px-Lemon.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/cuadrado_e505ff87-961d-4fa1-a6f6-a7370b90c067_540x.jpg?v=1587758998"
   },
   {
     "id": 17,
     "nombre": "Uva",
     "categoria": "Frutas",
     "precio": 60.00,
-    "descripcion": "Uva dulce y jugosa.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Varieties_of_grapes.jpg/640px-Varieties_of_grapes.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/iStock-121348678-thumbnail-540x540-70_540x.jpg?v=1587779941"
   },
   {
     "id": 18,
     "nombre": "Fresa",
     "categoria": "Frutas",
     "precio": 72.00,
-    "descripcion": "Fresa roja y dulce.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Strawberry_5.jpg/640px-Strawberry_5.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/1341264_540x.jpg?v=1589255705"
   },
   {
     "id": 19,
     "nombre": "Kiwi",
     "categoria": "Frutas",
     "precio": 43.00,
-    "descripcion": "Kiwi fresco y jugoso.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Kiwi_aka.jpg/640px-Kiwi_aka.jpg"
+    "imagen": "https://www.centralenlinea.com/images/thumbs/000/0006950_kiwi-importado_550.jpeg"
   },
   {
     "id": 20,
-    "nombre": "Mango",
+    "nombre": "Mango petacón",
     "categoria": "Frutas",
     "precio": 52.00,
     "descripcion": "Mango dulce y jugoso.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/640px-Hapus_Mango.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/388980_540x.jpg?v=1587779376"
   },
   {
     "id": 21,
-    "nombre": "Piña",
+    "nombre": "Piña miel",
     "categoria": "Frutas",
     "precio": 60.00,
-    "descripcion": "Piña fresca y dulce.",
     "imagen": "https://alacenademonica.com/cdn/shop/products/pina_600x.png?v=1633537231"
   },
   {
@@ -172,39 +152,34 @@
     "nombre": "Sandía",
     "categoria": "Frutas",
     "precio": 84.00,
-    "descripcion": "Sandía fresca y jugosa.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Watermelon.jpg/640px-Watermelon.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/2502868-00-CH515Wx515H_540x.jpg?v=1587779785"
   },
   {
     "id": 23,
     "nombre": "Melón",
     "categoria": "Frutas",
     "precio": 67.00,
-    "descripcion": "Melón fresco y dulce.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cantaloupe.jpg/640px-Cantaloupe.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/2502866-00-CH515Wx515H_540x.jpg?v=1587779477"
   },
   {
     "id": 24,
-    "nombre": "Lima",
+    "nombre": "Lima criolla",
     "categoria": "Frutas",
-    "precio": 14.00,
-    "descripcion": "Lima fresca y ácida.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Limes.jpg/640px-Limes.jpg"
+    "precio": 40.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/005/0054387_lima-criolla_550.png"
   },
   {
     "id": 25,
     "nombre": "Mandarina",
     "categoria": "Frutas",
     "precio": 26.00,
-    "descripcion": "Mandarina dulce y jugosa.",
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mandarin_Oranges_%28Citrus_Reticulata%29.jpg/640px-Mandarin_Oranges_%28Citrus_Reticulata%29.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/files/IMG-3919_540x.jpg?v=1695928892"
   },
   {
     "id": 26,
     "nombre": "Pomelo",
     "categoria": "Frutas",
     "precio": 31.00,
-    "descripcion": "Pomelo fresco y ácido.",
     "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pomelo.jpg/640px-Pomelo.jpg"
   },
   {
@@ -212,7 +187,6 @@
     "nombre": "Chirimoya",
     "categoria": "Frutas",
     "precio": 72.00,
-    "descripcion": "Chirimoya dulce y jugosa.",
     "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cherimoya.jpg/640px-Cherimoya.jpg"
   },
   {
@@ -221,7 +195,6 @@
     "categoria": "Chiles secos",
     "precio": 0.70,
     "stock": 130,
-    "descripcion": "Chile guajillo seco y picante.",
     "imagen": "https://ejemplo.com/chile-guajillo-seco.jpg"
   },
   {
@@ -230,7 +203,6 @@
     "categoria": "Chiles secos",
     "precio": 0.80,
     "stock": 120,
-    "descripcion": "Chile ancho seco y picante.",
     "imagen": "https://ejemplo.com/chile-ancho-seco.jpg"
   },
   {
@@ -239,7 +211,6 @@
     "categoria": "Chiles secos",
     "precio": 0.90,
     "stock": 110,
-    "descripcion": "Chile pasilla seco y picante.",
     "imagen": "https://ejemplo.com/chile-pasilla-seco.jpg"
   },
   {
@@ -248,7 +219,6 @@
     "categoria": "Chiles secos",
     "precio": 1.00,
     "stock": 100,
-    "descripcion": "Chile chipotle seco y ahumado.",
     "imagen": "https://ejemplo.com/chile-chipotle-seco.jpg"
   },
   {
@@ -257,7 +227,6 @@
     "categoria": "Chiles secos",
     "precio": 0.90,
     "stock": 110,
-    "descripcion": "Chile cascabel seco y picante.",
     "imagen": "https://ejemplo.com/chile-cascabel-seco.jpg"
   },
   {
@@ -266,7 +235,6 @@
     "categoria": "Chiles secos",
     "precio": 0.80,
     "stock": 120,
-    "descripcion": "Chile mulato seco y picante.",
     "imagen": "https://ejemplo.com/chile-mulato-seco.jpg"
   },
   {
@@ -275,7 +243,6 @@
     "categoria": "Chiles secos",
     "precio": 0.70,
     "stock": 130,
-    "descripcion": "Chile de agua seco y suave.",
     "imagen": "https://ejemplo.com/chile-agua-seco.jpg"
   },
   {
@@ -284,7 +251,6 @@
     "categoria": "Chiles secos",
     "precio": 0.80,
     "stock": 120,
-    "descripcion": "Chile manzano seco y picante.",
     "imagen": "https://ejemplo.com/chile-manzano-seco.jpg"
   },
   {
@@ -293,7 +259,6 @@
     "categoria": "Chiles secos",
     "precio": 0.90,
     "stock": 110,
-    "descripcion": "Chile piquín seco y muy picante.",
     "imagen": "https://ejemplo.com/chile-piquin-seco.jpg"
   },
   {
@@ -302,7 +267,6 @@
     "categoria": "Chiles secos",
     "precio": 1.00,
     "stock": 100,
-    "descripcion": "Chile chiltepín seco y muy picante.",
     "imagen": "https://ejemplo.com/chile-chiltepin-seco.jpg"
   },
   {
@@ -311,7 +275,6 @@
     "categoria": "Chiles secos",
     "precio": 0.90,
     "stock": 110,
-    "descripcion": "Chile de onza seco y picante.",
     "imagen": "https://ejemplo.com/chile-onza-seco.jpg"
   },
   {
@@ -320,7 +283,6 @@
     "categoria": "Semillas",
     "precio": 1.50,
     "stock": 200,
-    "descripcion": "Semilla de girasol tostada y salada.",
     "imagen": "https://ejemplo.com/semilla-girasol.jpg"
   },
   {
@@ -329,7 +291,6 @@
     "categoria": "Semillas",
     "precio": 1.80,
     "stock": 150,
-    "descripcion": "Semilla de calabaza tostada y salada.",
     "imagen": "https://ejemplo.com/semilla-calabaza.jpg"
   },
   {
@@ -338,7 +299,6 @@
     "categoria": "Semillas",
     "precio": 2.50,
     "stock": 100,
-    "descripcion": "Semilla de chía rica en omega-3.",
     "imagen": "https://ejemplo.com/semilla-chia.jpg"
   },
   {
@@ -347,7 +307,6 @@
     "categoria": "Semillas",
     "precio": 2.00,
     "stock": 120,
-    "descripcion": "Semilla de lino rica en fibra.",
     "imagen": "https://ejemplo.com/semilla-lino.jpg"
   },
   {
@@ -356,7 +315,6 @@
     "categoria": "Semillas",
     "precio": 1.70,
     "stock": 180,
-    "descripcion": "Semilla de sésamo tostada.",
     "imagen": "https://ejemplo.com/semilla-sesamo.jpg"
   },
   {
@@ -365,7 +323,6 @@
     "categoria": "Semillas",
     "precio": 2.20,
     "stock": 90,
-    "descripcion": "Semilla de amapola para repostería.",
     "imagen": "https://ejemplo.com/semilla-amapola.jpg"
   },
   {
@@ -374,7 +331,6 @@
     "categoria": "Semillas",
     "precio": 3.00,
     "stock": 80,
-    "descripcion": "Semilla de quinoa rica en proteínas.",
     "imagen": "https://ejemplo.com/semilla-quinoa.jpg"
   },
   {
@@ -383,7 +339,6 @@
     "categoria": "Semillas",
     "precio": 2.80,
     "stock": 70,
-    "descripcion": "Semilla de amaranto rica en nutrientes.",
     "imagen": "https://ejemplo.com/semilla-amaranto.jpg"
   }
 ]

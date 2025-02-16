@@ -7,7 +7,6 @@ const generateCardsOfProducts = (products) => {
       product.nombre,
       // product.categoria,
       product.precio,
-      product.descripcion,
       product.imagen
     );
     return newProduct.generateHTML();

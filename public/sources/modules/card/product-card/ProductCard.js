@@ -3,38 +3,44 @@ import { CardImage } from "/public/sources/modules/card/card-image/CardImage.js"
 
 class ProductCard {
 
-    constructor(id, nombre, precio, descripcion, imagen) {
+    constructor(id, nombre, precio, imagen) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
         //!FIXME: tratar el atributo descrpcion : no mostrar en el HTML
-        this.descripcion = descripcion;
         this.imagen = new CardImage(imagen, nombre);
     }
     //? Método para generar el HTML de la tarjeta
     
     generateHTML() {
         return `
-            <div class="d-flex col-md-2 col-lg-2 p-2">
-                <div class="card h-60" > 
-                    <figure class="p-1" >                   
+<style>
+  #texto-boton {
+    font-family: "Mako", serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+  #texto-precio {
+    font-family: "Mako", serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+</style>
+
+            <div class="d-flex col-4 col-sm-3 col-md-3 col-lg-2 p-1">
+                <div class="card" >                  
                         <img src="${this.imagen.getImageUrl()}" class="card-img-top product-img img-thumbnail" alt="${this.imagen.description}">
-                    <figure> 
                     <div class="card-body">
                         <div class="card-title-container">
                             <h5 title="${this.nombre}" class="card-nombre">
                             ${this.nombre.length > 50 ? this.nombre.substring(0,47)+"..." : this.nombre }
                             </h5>
                         </div>
-                        <div class="card-description-container my-2">
-                            <p title="${this.descripcion}" class="card-text">
-                            ${this.descripcion.length > 70 ? this.descripcion.substring(0,67)+"..." :  this.descripcion }
-                            </p>                            
-                        </div>
-                        <p class="card-text"><strong>Precio: $${this.precio}</strong></p>
+                        <p class="card-text" id="texto-precio"><strong>Precio: $${this.precio}</strong></p>
                     </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Agregar a la canasta</a>
+                    <div class="card-footer h-100">
+                    <button class="btn btn-primary" id="texto-boton"> Agregar a la canasta</a>
                     </div>
                 </div>
             </div>
