@@ -34,21 +34,21 @@ class ProductCard {
                     <div class="card-body">
                         <div class="card-title-container">
                             <h5 title="${this.nombre}" class="card-nombre">
-                            ${this.nombre.length > 50 ? this.nombre.substring(0,47)+"..." : this.nombre }
+                            ${this.nombre.length > 50 ? this.nombre.substring(0, 47) + "..." : this.nombre}
                             </h5>
                         </div>
                         <p class="card-text" id="texto-precio"><strong>Precio: $${this.precio}</strong></p>
                     </div>
-                    <div class="card-footer h-100">
+                    <div class="card-footer">
                     <button class="btn btn-primary" id="texto-boton"> Agregar a la canasta</a>
                     </div>
                 </div>
             </div>
         `;
-    }
+  }
 
 
 
 }
 
-export { ProductCard }
+export { ProductCard };

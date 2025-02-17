@@ -177,17 +177,17 @@
   },
   {
     "id": 26,
-    "nombre": "Pomelo",
+    "nombre": "Toronja",
     "categoria": "Frutas",
     "precio": 31.00,
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pomelo.jpg/640px-Pomelo.jpg"
+    "imagen": "https://www.gastronomiavasca.net/uploads/image/file/3421/w700_pomelo_rosa.jpg"
   },
   {
     "id": 50,
     "nombre": "Chirimoya",
     "categoria": "Frutas",
     "precio": 72.00,
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cherimoya.jpg/640px-Cherimoya.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chirimoya_1296x.jpg?v=1607364774"
   },
   {
     "id": 27,
@@ -195,7 +195,7 @@
     "categoria": "Chiles secos",
     "precio": 0.70,
     "stock": 130,
-    "imagen": "https://ejemplo.com/chile-guajillo-seco.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chile-guajillo-seco-100g-13654635479112_600x_274e3ad5-32ac-4a1b-ad77-78c14b1029cf_1080x.png?v=1587494783"
   },
   {
     "id": 28,
@@ -203,7 +203,7 @@
     "categoria": "Chiles secos",
     "precio": 0.80,
     "stock": 120,
-    "imagen": "https://ejemplo.com/chile-ancho-seco.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chile-ancho_piment_sec_1296x.jpg?v=1587489207"
   },
   {
     "id": 29,
@@ -211,7 +211,7 @@
     "categoria": "Chiles secos",
     "precio": 0.90,
     "stock": 110,
-    "imagen": "https://ejemplo.com/chile-pasilla-seco.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chile-pasilla_1296x.png?v=1587495625"
   },
   {
     "id": 30,
@@ -219,7 +219,7 @@
     "categoria": "Chiles secos",
     "precio": 1.00,
     "stock": 100,
-    "imagen": "https://ejemplo.com/chile-chipotle-seco.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chilechipotleseco_1296x.jpg?v=1616440406"
   },
   {
     "id": 31,
@@ -227,7 +227,7 @@
     "categoria": "Chiles secos",
     "precio": 0.90,
     "stock": 110,
-    "imagen": "https://ejemplo.com/chile-cascabel-seco.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chilecascabel_1296x.jpg?v=1602173310"
   },
   {
     "id": 32,
@@ -235,7 +235,7 @@
     "categoria": "Chiles secos",
     "precio": 0.80,
     "stock": 120,
-    "imagen": "https://ejemplo.com/chile-mulato-seco.jpg"
+    "imagen": "https://clickabasto.com/cdn/shop/products/chile-mulato2_500x500.jpg?v=1655677333"
   },
   {
     "id": 33,
@@ -243,15 +243,15 @@
     "categoria": "Chiles secos",
     "precio": 0.70,
     "stock": 130,
-    "imagen": "https://ejemplo.com/chile-agua-seco.jpg"
+    "imagen": "https://www.mitiendita.fr/106-home_default/piment-de-guajillo-100g.jpg"
   },
   {
     "id": 34,
-    "nombre": "Chile manzano seco",
-    "categoria": "Chiles secos",
+    "nombre": "Chile manzano",
+    "categoria": "Chiles",
     "precio": 0.80,
     "stock": 120,
-    "imagen": "https://ejemplo.com/chile-manzano-seco.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/0000000004711L1_1296x.jpg?v=1591677446"
   },
   {
     "id": 35,
@@ -259,15 +259,15 @@
     "categoria": "Chiles secos",
     "precio": 0.90,
     "stock": 110,
-    "imagen": "https://ejemplo.com/chile-piquin-seco.jpg"
+    "imagen": "https://zaandeea.com/wp-content/uploads/2021/03/Chile-Piquin-Entero-Seco.jpeg"
   },
   {
     "id": 36,
-    "nombre": "Chile chiltepín seco",
-    "categoria": "Chiles secos",
+    "nombre": "Aguacate",
+    "categoria": "Frutas",
     "precio": 1.00,
     "stock": 100,
-    "imagen": "https://ejemplo.com/chile-chiltepin-seco.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/aguacate_1080x.jpg?v=1587667720"
   },
   {
     "id": 37,
@@ -275,7 +275,7 @@
     "categoria": "Chiles secos",
     "precio": 0.90,
     "stock": 110,
-    "imagen": "https://ejemplo.com/chile-onza-seco.jpg"
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_718869-MLM74283523948_022024-O.webp"
   },
   {
     "id": 38,
@@ -283,7 +283,7 @@
     "categoria": "Semillas",
     "precio": 1.50,
     "stock": 200,
-    "imagen": "https://ejemplo.com/semilla-girasol.jpg"
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/alimentos_1296x.jpg?v=1587784127"
   },
   {
     "id": 39,
@@ -291,7 +291,7 @@
     "categoria": "Semillas",
     "precio": 1.80,
     "stock": 150,
-    "imagen": "https://ejemplo.com/semilla-calabaza.jpg"
+    "imagen": "https://hebmx.vtexassets.com/arquivos/ids/658114/69066_1136944627.jpg?v=638520867989130000"
   },
   {
     "id": 40,
@@ -299,7 +299,7 @@
     "categoria": "Semillas",
     "precio": 2.50,
     "stock": 100,
-    "imagen": "https://ejemplo.com/semilla-chia.jpg"
+    "imagen": "https://imag.bonviveur.com/semillas-de-chia-al-natural.jpg"
   },
   {
     "id": 41,
@@ -307,7 +307,7 @@
     "categoria": "Semillas",
     "precio": 2.00,
     "stock": 120,
-    "imagen": "https://ejemplo.com/semilla-lino.jpg"
+    "imagen": "https://m.media-amazon.com/images/I/A1irhFW9O8L.jpg"
   },
   {
     "id": 42,
@@ -315,7 +315,7 @@
     "categoria": "Semillas",
     "precio": 1.70,
     "stock": 180,
-    "imagen": "https://ejemplo.com/semilla-sesamo.jpg"
+    "imagen": "https://m.media-amazon.com/images/I/91nx40+NTAL.jpg"
   },
   {
     "id": 43,
@@ -323,7 +323,7 @@
     "categoria": "Semillas",
     "precio": 2.20,
     "stock": 90,
-    "imagen": "https://ejemplo.com/semilla-amapola.jpg"
+    "imagen": "https://static.wixstatic.com/media/9e6903_8a33fdcbf34a4db78991588d1992ae3a~mv2.png/v1/fill/w_420,h_407,al_c,lg_1,q_85,enc_auto/9e6903_8a33fdcbf34a4db78991588d1992ae3a~mv2.png"
   },
   {
     "id": 44,
@@ -331,7 +331,7 @@
     "categoria": "Semillas",
     "precio": 3.00,
     "stock": 80,
-    "imagen": "https://ejemplo.com/semilla-quinoa.jpg"
+    "imagen": "https://elbanquito.com.ar/wp-content/uploads/2020/09/semillas-de-quinoa-x-1-kg-el-banquito-market.jpg"
   },
   {
     "id": 45,
@@ -339,6 +339,6 @@
     "categoria": "Semillas",
     "precio": 2.80,
     "stock": 70,
-    "imagen": "https://ejemplo.com/semilla-amaranto.jpg"
+    "imagen": "https://acdn.mitiendanube.com/stores/139/211/products/0092-semillas-de-amaranto-tienda-oeste-thumb-e3802a8fb1ed1043c815132810551546-640-0.jpg"
   }
 ]
